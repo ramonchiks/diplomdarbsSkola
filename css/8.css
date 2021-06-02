@@ -1,0 +1,307 @@
+html, body {
+  position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: diplomdarbs;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "diplomdarbs";
+    src: url("./fonti/diplomdarbs.ttf");
+}
+
+/* te sākās teksta lietas */
+
+.teksts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+        color: #78FF78;
+}
+
+.story {
+    height: 10%;
+    display: block;
+ 
+  margin-top: 24%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  color: #78FF78;
+  cursor: pointer;
+}
+
+.story2 {
+    height: 10%;
+    display: block;
+  margin-top: 17%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  display: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.story3 {
+    height: 10%;
+    display: block;;
+  margin-top: 35%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  display: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.new-line {
+  white-space: pre-line;
+}
+
+a {
+text-decoration: none;
+color: #EC045C;
+}
+
+/*Te iet noformējuma lietas*/
+
+.fons2{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #FADEE9;
+  opacity: 1;
+   -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
+}
+
+.fons3{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+animation: colors 10s infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes colors {
+    from {background-color: #f9f0ae;}
+    50%{background-color: #edaef9}  
+    to {background-color: #b3d5aa;}  
+}
+
+.fons { 
+
+    width: 100%;
+    height: 100%;
+      
+        display: flex;
+      align-items: center; 
+      justify-content: center; 
+}
+.telekaste{
+    position: relative;
+  height: 80vh;
+  width: 80vh;
+}
+
+.datorabilde{
+    position: absolute;
+    z-index: 1;
+  height: 80vh;
+  width: 80vh;
+}
+
+.datorabilde img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.telekaste img {
+  width: 100%;
+  height: auto;
+  
+}
+
+
+.monitors{
+ position: relative;
+}
+
+
+.ekransteksts {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  right: 6%;
+  bottom: 20%;
+  font-size: calc(2vw + 3vh);
+  z-index: 2;
+}
+.test{
+  position: relative;
+ 
+}
+
+.ekrans {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  right: 6%;
+  bottom: 20%;
+  background-color: #25B4C8;
+  display: block;
+
+}
+.tumsaks {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  right: 6%;
+  bottom: 20%;
+  background-color: black;
+  display: none;
+  opacity: 0.4;
+
+}
+
+.sirdsdiv {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  right: 6%;
+  bottom: 20%;
+  display: block;
+
+}
+
+.ieksa {
+  position: absolute;
+  bottom: 30%;
+  left: 30%;
+  display: none;
+
+}
+
+.static {
+ display: none;
+ position: absolute;
+ left: -3%;
+}
+
+.sirds {
+  max-width: 20%;
+  position: absolute;
+  margin-top: 45%;
+  margin-left: -10%;
+  display: none;
+
+}
+
+       .bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 3000px, 0);
+  transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+  }
+  75% {
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+  }
+  90% {
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  }
+  100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+  @keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 3000px, 0);
+  transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+  }
+  75% {
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+  }
+  90% {
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  }
+  100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  }
+
+
+  .slideOutDown {
+  -webkit-animation-name: slideOutDown;
+  animation-name: slideOutDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideOutDown {
+  0% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  100% {
+  visibility: hidden;
+  -webkit-transform: translateY(200%);
+  transform: translateY(200%);
+  }
+  }
+  @keyframes slideOutDown {
+  0% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  100% {
+  visibility: hidden;
+  -webkit-transform: translateY(200%);
+  transform: translateY(200%);
+  }
+  } 
+×

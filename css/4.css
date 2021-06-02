@@ -1,0 +1,97 @@
+html, body {
+  position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: diplomdarbs;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "diplomdarbs";
+    src: url("./fonti/diplomdarbs.ttf");
+}
+
+/* te sākās teksta lietas */
+
+.teksts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+        color: #FFD4DB;
+}
+
+.story {
+    height: 10%;
+    display: block;
+  font-size: 5vw;
+  margin-top: 15%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  cursor: pointer;
+}
+
+.new-line {
+  white-space: pre-line;
+}
+
+a {
+text-decoration: none;
+color: #FFD4DB;
+}
+
+/*Te iet noformējuma lietas*/
+
+.fons {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2C2D23;
+}
+
+.pukes{
+  position: absolute;
+  width: 50vh;
+  height: 50vh;
+  bottom: -10%;
+  margin-left: 38%;
+}
+
+
+#viens, #divi, #tris, #cetri, #pieci, #sesi, #septini{
+  max-width:  100%;
+  height: auto;
+  opacity: 0;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+          -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
+}
+
+#zeme{
+    max-width:  100%;
+  height: auto;
+  opacity: 0;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.links {
+  display: none;
+   height: 10%;
+  font-size: 5vw;
+  margin-top: 7%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  cursor: pointer;
+}

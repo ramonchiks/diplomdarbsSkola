@@ -1,0 +1,459 @@
+html, body {
+  position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: diplomdarbs;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "diplomdarbs";
+    src: url("./fonti/diplomdarbs.ttf");
+}
+
+/* te sākās teksta lietas */
+
+.teksts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+        color: #183527;
+        z-index: 2;
+}
+
+.story {
+    height: 10%;
+    display: block;
+  font-size: 5vw;
+  margin-top: 3%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  color: #183527;
+  cursor: pointer;
+}
+
+.story2 {
+    height: 10%;
+    display: block;
+  font-size: 5vw;
+  margin-top: 15%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  display: none;
+  cursor: pointer;
+}
+
+
+.new-line {
+  white-space: pre-line;
+}
+
+a {
+text-decoration: none;
+color: #EC045C;
+}
+
+/*Te iet noformējuma lietas*/
+
+.fons {
+    width: 100%;
+    height: 100%;
+    position: absolute;       
+    z-index: 1;
+}
+
+.fons2{
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: radial-gradient(circle, #e4bbbb, #e0bcaf, #d7bfa7, #c9c3a5, #b9c6a9);
+}
+
+.fons3{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.datoraansamblis{
+  position: absolute;
+  margin-top: 30vh;
+  height: 30vh;
+  width: 30vh;
+  margin-left: 42.5%;
+}
+
+.pukesuzdatora {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+}
+
+
+.telekaste{
+  position: absolute;
+  height: 20vh;
+  width: 20vh;
+  margin-left: 17%;
+  margin-top: 50%;
+
+}
+
+.datorabilde{
+    position: absolute;
+    z-index: 1;
+  }
+
+.datorabilde img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.telekaste img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.monitors{
+ position: relative;
+}
+
+.ekransteksts {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  right: 6%;
+  bottom: 20%;
+  font-size: calc(2vw + 3vh);
+  z-index: 2;
+}
+
+
+.ekrans {
+  position: absolute;
+  top: 19%;
+  left: 14%;
+  right: 18%;
+  bottom: 30%;
+  background-color: #25B4C8;
+  display: block;
+
+}
+
+.static {
+ display: none;
+ position: absolute;
+ margin-left: -50%;
+}
+
+.tekstsdatora {
+    display: block; 
+  max-width: 80%;
+  color: #78FF78;
+  cursor: pointer;
+}
+
+.tikaiekrans {
+  transform: scale(1.3);
+  position: absolute;
+  margin-left: -50%;
+}
+
+#startagain {
+ display: none;
+}
+
+/* te sākas puķes uz datora */
+
+.puke1{
+  position: absolute;
+  margin-top: 70%;
+  max-height: 80%;
+  width: auto;
+  margin-left: -17%;
+}
+
+.zaale{
+  position: absolute;
+  margin-top: 52%;
+  max-height: 34%;
+  width: auto;
+  margin-left: -23%;
+}
+
+.orhidejas{
+  position: absolute;
+  margin-top: 60%;
+  max-height: 65%;
+  width: auto;
+  margin-left: -19%;
+}
+
+.asnini{
+  position: absolute;
+  margin-top: 54%;
+  max-height: 22%;
+  width: auto;
+  margin-left: -28%;
+}
+
+.izlien {
+     -webkit-transition: margin-top 2s ease-out;
+  -moz-transition: margin-top 2s ease-out;
+  -o-transition: margin-top 2s ease-out;
+  transition: margin-top 2s ease-out;
+}
+
+.paluur {
+     -webkit-transition: margin-top 0.3s ease-in;
+  -moz-transition: margin-top 0.3s ease-in;
+  -o-transition: margin-top 0.3s ease-in;
+  transition: margin-top 0.3s ease-in;
+}
+
+.izlienmantas {
+     -webkit-transition: margin-top 1.3s ease-out;
+  -moz-transition: margin-top 1.3s ease-out;
+  -o-transition: margin-top 1.3s ease-out;
+  transition: margin-top 1.3s ease-out;
+}
+
+/* te sākas mantas datorā */
+
+.mantasekrana{
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  margin-top: 50%;
+}
+
+.seja {
+  position: absolute;
+  margin-left: -47%;
+  margin-top: 80%;
+  transform: scale(1.1);
+}
+
+.sirds {
+  position: absolute;
+  margin-left: -30%;
+  margin-top: 55%;
+  max-height: 60%;
+  width: auto;
+}
+
+.zvaigzne {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 35%;
+  max-height: 70%;
+  width: auto;
+}
+.spilvens {
+  position: absolute;
+  margin-left: -65%;
+  margin-top: 40%;
+  max-height: 60%;
+  width: auto;
+}
+.zakis {
+  position: absolute;
+  margin-left: -20%;
+  margin-top: 53%;
+  max-height: 70%;
+  width: auto;
+}
+.zirneklis {
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 50%;
+  max-height: 70%;
+  width: auto;
+}
+.zivs {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 53%;
+  max-height: 40%;
+  width: auto;
+}
+.pile {
+  position: absolute;
+  margin-left: -50%;
+  margin-top: 55%;
+  max-height: 50%;
+  width: auto;
+}
+.chuska {
+  position: absolute;
+  margin-left: -60%;
+  margin-top: 30%;
+  max-height: 80%;
+  width: auto;
+}
+
+/* te sākas dobju lietas */
+
+.visasdobes{
+  width: 100%;
+  position: absolute;
+  height: 70%;
+  margin-top: 50vh;
+}
+
+.kreisa {
+  display: inline-block;
+  width: 46%;
+  height: 100%;
+  float: left;
+  margin-right: 8%;
+}
+.laba {
+  display: inline-block;
+  width: 46%;
+  height: 100%;
+  float: left;
+}
+
+
+.dobekreisa{
+  max-width: 100%;
+}
+
+.dobelaba{
+  max-width: 100%;
+  margin-top: -3%;
+}
+
+/* te sākas mantas uz zemes */
+
+.mantaszeme{
+  height: 30vh;
+  width: 60%;
+  margin-left: 20%;
+  bottom: 0%;
+  position: absolute;
+}
+
+#spilvens{
+  max-height: 16vh;
+  position: absolute;
+  bottom: -10%;
+  left: 0%;
+  opacity: 0;
+}
+
+#pile {
+  max-height: 15vh;
+  position: absolute;
+  bottom: 2%;
+  left: 10%;
+  opacity: 0;
+}
+
+#sirds{
+  max-height: 12vh;
+  position: absolute;
+  bottom: 1%;
+  left: 24%;
+  opacity: 0;
+}
+
+#dzeks{
+  max-height: 22vh;
+  position: absolute;
+  bottom: -15%;
+  left: 30%;
+  opacity: 0;
+}
+
+#zivs{
+  max-height: 4vw;
+  position: absolute;
+  bottom: 28%;
+  left: 49%;
+  opacity: 0;
+}
+
+#zirneklis {
+  max-height: 20vh;
+  position: absolute;
+  bottom: -6%;
+  left: 45%;
+  opacity: 0;
+}
+
+#chuska{
+  max-height: 24vh;
+  position: absolute;
+  bottom: -14%;
+  left: 63%;
+  opacity: 0;
+}
+
+#zakis{
+  max-height: 15vh;
+  position: absolute;
+  bottom: -9%;
+  left: 79%;
+  opacity: 0;
+}
+
+#zvaigzne{
+  max-height: 15vh;
+  position: absolute;
+  bottom: 11%;
+  left: 93%;
+  opacity: 0;
+}
+
+/* dummy div */
+
+.dummy{
+    position: absolute;
+  height: 22vh;
+  width: 16vh;
+  margin-left: 45.8vw;
+  margin-top: 26vh;
+}
+
+.dummy2{
+    position: absolute;
+  height: 10vh;
+  width: 16vh;
+  margin-left: 45.8vw;
+  margin-top: 30vh;
+  display: none;
+}
+
+.fadeDzeks{
+  -webkit-transition: opacity 0.1s ease-in;
+  -moz-transition: opacity 0.1s ease-in;
+  -o-transition: opacity 0.1s ease-in;
+  transition: opacity 0.1s ease-in;
+}
+
+.POP{
+  -webkit-transition: opacity 0.1s ease-in;
+  -moz-transition: opacity 0.1s ease-in;
+  -o-transition: opacity 0.1s ease-in;
+  transition: opacity 0.1s ease-in;
+}
+
+.nojauna {
+   position: absolute;
+ margin-left: -50%;
+ margin-top: 7%;
+ transform: scale(0.9);
+ display: none;
+}

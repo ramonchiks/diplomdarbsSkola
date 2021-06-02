@@ -1,0 +1,253 @@
+html, body {
+  position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: diplomdarbs;
+    text-align: center;
+    background-color: #000000;
+}
+
+@font-face {
+    font-family: "diplomdarbs";
+    src: url("./fonti/diplomdarbs.ttf");
+}
+
+/* te sākās teksta lietas */
+
+.teksts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+        color: #f1d2cf;
+}
+
+.story {
+    height: 10%;
+    display: block;
+  font-size: 5vw;
+  margin-top: 10%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
+}
+
+.story2 {
+    height: 10%;
+    display: none;
+  font-size: 5vw;
+  margin-top: 10%;
+  margin-left:10%;
+  margin-right: 10%; 
+  max-width: 80%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.new-line {
+  white-space: pre-line;
+}
+
+a {
+text-decoration: none;
+color: #f1d2cf;
+}
+
+/*Te iet noformējuma lietas*/
+
+.fons {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.mantukaste{
+  width: 100%;
+  height: 35%;
+  position: absolute;
+  bottom: -6%;
+}
+
+
+.augsakreisais {
+  max-width: 35%;
+  position: absolute;
+  left: -5%;
+  top: -7%;
+}
+
+.augsalabais {
+  max-width: 50%;
+  position: absolute;
+  left: 55%;
+  top: -5%;
+}
+
+.apaksakreisais {
+  max-width: 25%;
+  position: absolute;
+  left: -5%;
+  bottom: -5%;
+}
+
+.apaksalabais {
+  max-width: 20%;
+  position: absolute;
+  left: 81%;
+  bottom: -3%;
+}
+
+.zirneklistikla{
+  max-width: 20%;
+  height: auto;
+  position: absolute;
+  left: 8%;
+  top: -150%;
+  transform-origin: 50% top;
+  z-index: 1;
+}
+
+.dzeks0 {
+  position: absolute;
+  max-height: 150%;
+  width: auto;
+  left: -15%;
+
+}
+
+.chuska1 {
+  position: absolute;
+  max-height: 145%;
+  width: auto;
+  left: -15%;
+
+}
+
+.zivs2 {
+  position: absolute;
+  max-height: 140%;
+  width: auto;
+  left: -15%;
+
+}
+
+.zvaigzne3 {
+  position: absolute;
+  max-height: 135%;
+  width: auto;
+  left: -15%;
+
+}
+
+.zakis4 {
+  position: absolute;
+  max-height: 130%;
+  width: auto;
+  left: -15%;
+
+}
+
+.pile5 {
+  position: absolute;
+  max-height: 125%;
+  width: auto;
+  left: -15%;
+
+}
+
+.sirds6 {
+  position: absolute;
+  max-height: 120%;
+  width: auto;
+  left: -15%;
+
+}
+.spilvens7 {
+  position: absolute;
+  max-height: 115%;
+  width: auto;
+  left: -15%;
+
+}
+
+
+.parallax-layer {
+    position: absolute;
+         opacity:0;
+      -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -o-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+}
+
+
+.zirneklisnak {
+    animation-duration: 3s;
+  animation-name: zirneklisienak;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zirneklisienak {
+
+  from{
+    top:-150%;
+  }
+
+  70%{
+    top:-40%;
+  }
+
+  to{
+    top:-45%;
+  }
+
+
+}
+
+.zirneklisiesupojas{
+    animation-name: iesupojas;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    top:-45%;
+}
+
+@keyframes iesupojas {
+  from{
+    transform: rotate(0deg);
+  }
+
+  to{
+    transform: rotate(7deg);
+  }
+}
+
+.zirneklissupojas{
+    animation-name: supojas;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out; 
+    top:-45%;
+    animation-direction: alternate;
+}
+
+@keyframes supojas {
+
+  from{
+    transform: rotate(7deg);
+  }
+
+  to{
+    transform: rotate(-7deg);
+  }
+
+}
