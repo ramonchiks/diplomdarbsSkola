@@ -94,6 +94,7 @@ html, body {
 }
 
 .story {
+  padding-top: 20%;
 	height: 10%;
 	display: none;
   font-size: 5vw;
