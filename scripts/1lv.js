@@ -55,21 +55,21 @@ $(document).ready(function(){
 		$(".story").css("display", "block");
 		$(".ifyes").css("display", "none");
 		$(".teksts").css("color", "#FADEE9")
-		writethis("Es nekad neesmu pazinusi \n pasauli bez interneta", ".story")
+		writethis("Es nekad neesmu \n pazinusi pasauli \n bez interneta", ".story")
 
 	});
 
  	$(".story").click(function(){
  		$(".story").css("top", "26%")
- 		writethis("Mana paaudze bija \n  viena no pirmajām \n (ja ne pati pirmā) \n kas lielā mērā uzauga internetā", ".story")
+ 		writethis("Mana paaudze bija \n  viena no pirmajām \n (ja ne pati pirmā), \n kas lielā mērā \n uzauga internetā", ".story")
 
  	$(".story").click(function(){
- 		writethis("Man ir daudz \n  mīļu atmiņu \n par dažādiem nostaļģiskiem \n interneta nostūriem", ".story")
+ 		writethis("Man ir daudz \n  mīļu atmiņu \n par dažādiem \nnostaļģiskiem \n interneta nostūriem", ".story")
 
  	$(".story").click(function(){
  		$(".story").css("display", "none")
  		$(".storyMiddle").css("display", "block")
- 		writethis("Atšķirībā no īstās dzīves, \n šeit tie nekad \n īsti nepazūd", ".storyMiddle")
+ 		writethis("Atšķirībā \n  no īstās dzīves, \n šeit tie nekad \n īsti nepazūd", ".storyMiddle")
  		setTimeout(function(){
  			$(".storyMiddle").css("opacity", "0.15")
  		}, 2100)
@@ -77,7 +77,7 @@ $(document).ready(function(){
  	$(".storyMiddle").click(function(){
  		$(".storyMiddle").css("display", "none")
  		$(".story3").css("display", "block")
- 		writethis("Laiktelpas noteikumi \n  tīkla telpā \n ir atšķirīgi", ".story3")
+ 		writethis("Laiktelpas \n noteikumi \n  tīkla telpā \n ir atšķirīgi", ".story3")
 
  	$(".story3").click(function(){
  		$(".story3").css("top", "26%")
@@ -85,14 +85,14 @@ $(document).ready(function(){
 
  	$(".story3").click(function(){
  		$(".story3").css("top", "30%")
- 		writethis("Man šķiet, \n  ka vēl ir par agru, \n lai tas būtu iespējams", ".story3")
+ 		writethis("Man šķiet, \n  ka vēl ir par agru, \n lai tas būtu \niespējams", ".story3")
 
  	$(".story3").click(function(){
  		writethis("Viena no lietām, \n ko patiešām \n pierādīja internets", ".story3")
 
  	$(".story3").click(function(){
  		$(".story3").css("top", "26%")
- 		writethis("ir tas, \n cik daudz vieglāk reizēm \n var būt parunāties \n ar pilnīgu svešinieku,", ".story3")
+ 		writethis("ir tas, \n cik daudz vieglāk \n reizēm var būt \nparunāties ar \n pilnīgu svešinieku,", ".story3")
 
  	$(".story3").click(function(){
  		writethis("it sevišķi tad, \n ja viņam nekad \n nav jāieskatās acīs", ".story2")

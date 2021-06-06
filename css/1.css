@@ -105,6 +105,7 @@ html, body {
   position: absolute;
   z-index: 2;
   opacity: 1;
+  padding-top: 5%;
 }
 
 .storyMiddle {
@@ -119,6 +120,7 @@ html, body {
   position: absolute;
   z-index: 2;
   opacity: 1;
+  padding-top: 5%;
               -webkit-transition: opacity 3s ease-in-out;
   -moz-transition: opacity 3s ease-in-out;
   -o-transition: opacity 3s ease-in-out;
@@ -137,6 +139,7 @@ html, body {
   position: absolute;
   z-index: 2;
   opacity: 1;
+  padding-top: 5%;
 }
 
 
@@ -151,6 +154,7 @@ html, body {
   cursor: pointer;
   position: absolute;
   z-index: 2;
+  padding-top: 5%;
 }
 
 
