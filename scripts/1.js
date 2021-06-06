@@ -5,7 +5,7 @@ $(document).ready(function(){
 		
 		$(".hello").css("font-size", "5vw")
 		$(".hello").css("height", "17%")
-		$(".hello").css("margin-top", "12%")
+		$(".hello").css("top", "27%")
 		$(".hello").css("margin-bottom", "7%")
 		writethis("I would like to tell you a story. \n Are you willing to listen?", ".hello")
 		$(".hello").css("cursor", "default")
@@ -60,7 +60,7 @@ $(document).ready(function(){
 	});
 
  	$(".story").click(function(){
- 		$(".story").css("margin-top", "10%")
+ 		$(".story").css("top", "26%")
  		writethis("My generation was \n  one of the first \n (if not the first) \n to grow up largely online", ".story")
 
  	$(".story").click(function(){
@@ -89,7 +89,7 @@ $(document).ready(function(){
  		writethis("Among many other things, \n it gave a chance for people \n to realise", ".story3")
 
  	$(".story3").click(function(){
- 		$(".story3").css("margin-top", "9%")
+ 		$(".story3").css("top", "26%")
  		writethis("how much easier \n it can sometimes be \n to talk to a \n complete stranger,", ".story3")
 
  	$(".story3").click(function(){
