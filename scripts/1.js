@@ -88,7 +88,8 @@ $(document).ready(function(){
  		writethis("I don't think \n  that's possible \n just yet", ".story3")
 
  	$(".story3").click(function(){
- 		writethis("Among many other things, \n it gave a chance for people \n to realise", ".story3")
+ 		$(".story3").css("top", "22%")
+ 		writethis("Among many \n other things, \n it gave a chance \n for people \n to realise", ".story3")
 
  	$(".story3").click(function(){
  		$(".story3").css("top", "26%")

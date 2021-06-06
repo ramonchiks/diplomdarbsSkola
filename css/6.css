@@ -27,6 +27,7 @@ html, body {
 }
 
 .story {
+  padding-top: 2%;
     height: 10%;
     display: block;
   font-size: 5vw;
@@ -388,7 +389,7 @@ color: #186b64;
   max-height: 55%;
   width: auto;
   bottom: -60%;
-  left: 40%;
+  left: 37%;
    opacity:1;
 }
 
@@ -397,7 +398,7 @@ color: #186b64;
   max-height: 55%;
   width: auto;
   bottom: -10%;
-  left: 36.3%;
+  left: 33.3%;
    opacity:0;
 }
 
@@ -406,7 +407,7 @@ color: #186b64;
   max-height: 55%;
   width: auto;
   bottom: -10%;
-  left: 33%;
+  left: 30%;
    opacity:0;
 }
 
@@ -415,7 +416,7 @@ color: #186b64;
   max-height: 55%;
   width: auto;
   bottom: -10%;
-  left: 40%;
+  left: 37%;
    opacity:0;
 }
 
@@ -424,7 +425,7 @@ color: #186b64;
   max-height: 55%;
   width: auto;
   bottom: -9.5%;
-  left: 37%;
+  left: 34%;
    opacity:0;
 }
 

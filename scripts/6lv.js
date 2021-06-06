@@ -25,6 +25,7 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		$(".story").css("top", "15%")
+		$(".story").css("padding-top", "5.5%")
 		writethis("Taču, kad internetā \n  ir pieejama neizsīkstoša  \n patīkamas uzmanības straume", ".story")
 		setTimeout(function(){
 			$("#chuskabox").addClass("chuskaieksa")

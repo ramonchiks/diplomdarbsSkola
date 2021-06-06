@@ -279,7 +279,7 @@ color: #03140D;
 } */
 
 .majalielaka{
-  transform: scale(1.5) translateY(-29%);
+  transform: scale(1.5) translateY(2%);
          -webkit-transition: transform 0.7s ease-out;
   -moz-transition: transform 0.7s ease-out;
   -o-transition: transform 0.7s ease-out;
@@ -287,7 +287,7 @@ color: #03140D;
 }
 
 .majalielaka2{
-    transform: scale(3.2) translateY(-70%);
+    transform: scale(3.2) translateY(-20%);
          -webkit-transition: transform 0.7s ease-out;
   -moz-transition: transform 0.7s ease-out;
   -o-transition: transform 0.7s ease-out;

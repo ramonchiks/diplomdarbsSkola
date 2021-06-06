@@ -25,6 +25,7 @@ $(document).ready(function(){
 
 	$(".story").click(function(){
 		$(".story").css("top", "15%")
+		$(".story").css("padding-top", "5.5%")
 		writethis("But once you have \n the constant easy flow  \n of validation", ".story")
 		setTimeout(function(){
 			$("#chuskabox").addClass("chuskaieksa")
