@@ -5,6 +5,7 @@ setTimeout(function() {
 }, 2000)
 
 	$(".story").click(function(){
+		$(".story").css("top", "20%")
 	writethis("ka viss šis \n teātris", ".story")
 setTimeout(function(){
 	$("#dzeks1").addClass("bounceInUp")
@@ -12,7 +13,7 @@ setTimeout(function(){
 }, 800)
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "15vh")
+		$(".story").css("top", "15%")
 		writethis("lielā mērā bija \n par kontroles iegūšanu \n haotiskā pasaulē", ".story")
 		setTimeout(function(){
 			$("#pile").addClass("pileieksa")
@@ -43,11 +44,10 @@ setTimeout(function(){
 		},3700)
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "23vh")
+		$(".story").css("top", "20%")
 		writethis("Visu kontrolēt ir", ".story")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "20vh")
 		$(".story").css("font-size", "7vw")
 		writethis("ĻOTI", ".story")
 

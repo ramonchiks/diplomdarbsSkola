@@ -9,39 +9,39 @@ $(document).ready(function(){
 
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "11%")
+		$(".story").css("top", "26%")
 		writethis("un sāku būvēt sevi \n no pašiem pamatiem", ".story")
 		$("#viens").css("opacity", "1")
 
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "11%")
+		$(".story").css("top", "30%")
 		writethis("Pati to \n īsti nepamanot", ".story")
 		$("#zeme").css("opacity", "1")
 		$("#viens").css("opacity", "0")
 		$("#divi").css("opacity", "1")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "10%")
+		$(".story").css("top", "20%")
 		writethis("savu realitāti \n pavisam ātri pārfokusēju \n uz uzmanīgu sava tēla izstrādi", ".story")
 		$("#divi").css("opacity", "0")
 		$("#tris").css("opacity", "1")
 
 	$(".story").click(function(){
 		writethis("radītu nepazīstamu \n cilvēku apskatei", ".story")
-		$(".story").css("margin-top", "8%")
+		$(".story").css("top", "17%")
 		$("#tris").css("opacity", "0")
 		$("#cetri").css("opacity", "1")
 
 
 	$(".story").click(function(){
 		writethis("Katrs vārds, ko teicu, \n un katrs attēls, ko publicēju", ".story")
-		$(".story").css("margin-top", "4%")
+		$(".story").css("top", "8%")
 		$("#cetri").css("opacity", "0")
 		$("#pieci").css("opacity", "1")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "4%")
+		$(".story").css("top", "5%")
 		writethis("kalpoja savādas, romantizētas \n sevis versijas izstrādei", ".story")
 		$("#pieci").css("opacity", "0")
 		$("#sesi").css("opacity", "1")

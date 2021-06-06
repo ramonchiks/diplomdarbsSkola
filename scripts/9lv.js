@@ -21,7 +21,7 @@ $(document).ready(function(){
 		writethis("kurā dzīvo mūsdienu cilvēks \n (it sevišķi jaunākā paaudze)", ".story")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "6%")
+		$(".story").css("top", "12%")
 		$(".orhidejas").css("margin-top", "23%")
 		writethis("ir ļoti interesanta", ".story")
 
@@ -33,7 +33,7 @@ $(document).ready(function(){
 		setTimeout(function() {
 		$(".seja").css("margin-top", "11%")
 	}, 2100)
-		$(".story").css("margin-top", "3%")
+		$(".story").css("top", "8%")
 		writethis("tā izveido jaunas\n komunikācijas formas", ".story")
 
 	$(".story").click(function(){
@@ -120,7 +120,7 @@ $(document).ready(function(){
 		writethis("Šī visa mērogs ir daudz plašāks \n nekā es spēju aptvert vienā darbā", ".story")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "6%")
+		$(".story").css("top", "12%")
 		writethis("Šī ir tikai mana pieredze", ".story")
 
 	$(".story").click(function(){

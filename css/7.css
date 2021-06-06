@@ -29,23 +29,25 @@ html, body {
     height: 10%;
     display: block;
   font-size: 5vw;
-  margin-top: 20vh;
+  top: 35%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
   cursor: pointer;
+  position: absolute;
 }
 
 .story2 {
     height: 10%;
     display: block;
   font-size: 5vw;
-  margin-top: 20vh;
+  top: 20%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
   display: none;
   cursor: pointer;
+  position: absolute;
 }
 
 .new-line {

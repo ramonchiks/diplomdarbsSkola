@@ -29,10 +29,11 @@ html, body {
     height: 10%;
     display: block;
   font-size: 5vw;
-  margin-top: 15%;
+  top: 33%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
+  position: absolute;
   cursor: pointer;
 }
 
@@ -59,7 +60,7 @@ color: #FFD4DB;
   width: 50vh;
   height: 50vh;
   bottom: -10%;
-  margin-left: 38%;
+  left: 35%;
 }
 
 
@@ -86,12 +87,13 @@ color: #FFD4DB;
 }
 
 .links {
+  position: absolute;
   display: none;
    height: 10%;
   font-size: 5vw;
-  margin-top: 7%;
+  top: 8%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
   cursor: pointer;
 }

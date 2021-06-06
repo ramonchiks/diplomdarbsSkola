@@ -5,6 +5,7 @@ setTimeout(function() {
 }, 2000)
 
 	$(".story").click(function(){
+	$(".story").css("top", "20%")
 	writethis("that all this \n theatre", ".story")
 setTimeout(function(){
 	$("#dzeks1").addClass("bounceInUp")
@@ -12,7 +13,7 @@ setTimeout(function(){
 }, 1000)
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "15vh")
+		$(".story").css("top", "15%")
 		writethis("really was about \n gaining some control \n in a chaotic world", ".story")
 		setTimeout(function(){
 			$("#pile").addClass("pileieksa")
@@ -43,7 +44,7 @@ setTimeout(function(){
 		},3700)
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "20vh")
+		$(".story").css("top", "20%")
 		writethis("it feels", ".story")
 
 	$(".story").click(function(){

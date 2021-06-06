@@ -30,10 +30,11 @@ html, body {
     height: 10%;
     display: block;
   font-size: 5vw;
-  margin-top: 3%;
+  top: 8%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
+  position: absolute;
   color: #183527;
   cursor: pointer;
 }

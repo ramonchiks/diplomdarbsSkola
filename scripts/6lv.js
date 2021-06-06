@@ -6,7 +6,7 @@ $(document).ready(function(){
 	}, 1000)
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "13%")
+		$(".story").css("top", "25%")
 		writethis("enerģijas", ".story")
 		$("#viens").removeClass("izlien")
 		$("#viens").addClass("transparent")
@@ -24,7 +24,7 @@ $(document).ready(function(){
 		$("#cetri").css("opacity", "1")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "7%")
+		$(".story").css("top", "15%")
 		writethis("Taču, kad internetā \n  ir pieejama neizsīkstoša  \n patīkamas uzmanības straume", ".story")
 		setTimeout(function(){
 			$("#chuskabox").addClass("chuskaieksa")
@@ -36,15 +36,15 @@ $(document).ready(function(){
 		}, 2100)
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "10%")
+		$(".story").css("top", "20%")
 		writethis("ķēpāties ar visu \n emocionālo sarežģītumu", ".story")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "7%")
+		$(".story").css("top", "15%")
 		writethis("ko pieprasa \n veselīgu attiecību \n veidošana", ".story")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "10%")
+		$(".story").css("top", "20%")
 		writethis("vienkārši neliekas \n tā vērts", ".story")
 		$("#cetri").css("opacity", "0")
 		$("#pieci").css("opacity", "1")
@@ -66,12 +66,11 @@ $(document).ready(function(){
 
 		setTimeout(function(){
 			$(".story3").css("display", "block")
-			$(".story3").css("margin-top", "13%")
 		writethis("Tam sekojošā \n izolācija", ".story3")
 		}, 7000)
 
 		$(".story3").click(function(){
-		writethis("un nespēja sagremot \n īstas cilvēciskas problēmas", ".story3")
+		writethis("un nespēja sagremot \n īstas cilvēcīgas problēmas", ".story3")
 
 
 	$(".story3").click(function(){
@@ -82,7 +81,6 @@ $(document).ready(function(){
 		writethis("Paļauties uz tikai savā galvā \n eksistējošu cilvēku atbalstu", ".story3")
 
 	$(".story3").click(function(){
-		$(".story3").css("margin-top", "15%")
 		writethis("var būt \n diezgan jautri", ".story3")
 		$(".galvaContainer").css("display", "block")
 

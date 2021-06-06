@@ -6,7 +6,7 @@ $(document).ready(function(){
 	}, 1000)
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "13%")
+		$(".story").css("top", "25%")
 		writethis("energy", ".story")
 		$("#viens").removeClass("izlien")
 		$("#viens").addClass("transparent")
@@ -24,7 +24,7 @@ $(document).ready(function(){
 		$("#cetri").css("opacity", "1")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "7%")
+		$(".story").css("top", "15%")
 		writethis("But once you have \n the constant easy flow  \n of validation", ".story")
 		setTimeout(function(){
 			$("#chuskabox").addClass("chuskaieksa")
@@ -36,15 +36,15 @@ $(document).ready(function(){
 		}, 2100)
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "10%")
+		$(".story").css("top", "20%")
 		writethis("that doesn't \n challenge you", ".story")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "7%")
+		$(".story").css("top", "15%")
 		writethis("deliberately \n  putting yourself \n through the emotional hassle", ".story")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "10%")
+		$(".story").css("top", "20%")
 		writethis("of real \n relationships ", ".story")
 
 	$(".story").click(function(){
@@ -69,7 +69,6 @@ $(document).ready(function(){
 
 		setTimeout(function(){
 			$(".story3").css("display", "block")
-			$(".story3").css("margin-top", "13%")
 		writethis("The following \n isolation", ".story3")
 		}, 7000)
 
@@ -85,7 +84,7 @@ $(document).ready(function(){
 		writethis("Relying on the love of people \n who only really exist in your head", ".story3")
 
 	$(".story3").click(function(){
-		$(".story3").css("margin-top", "15%")
+		$(".story3").css("top", "34%")
 		writethis("can be fun", ".story3")
 		$(".galvaContainer").css("display", "block")
 

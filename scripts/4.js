@@ -9,39 +9,39 @@ $(document).ready(function(){
 
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "11%")
+		$(".story").css("top", "26%")
 		writethis("and I started \n building myself \n from the ground up", ".story")
 		$("#viens").css("opacity", "1")
 
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "11%")
+		$(".story").css("top", "30%")
 		writethis("And, without really \n noticing it", ".story")
 		$("#zeme").css("opacity", "1")
 		$("#viens").css("opacity", "0")
 		$("#divi").css("opacity", "1")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "10%")
+		$(".story").css("top", "20%")
 		writethis("my reality \n quickly became focused \n on crafting an image of myself ", ".story")
 		$("#divi").css("opacity", "0")
 		$("#tris").css("opacity", "1")
 
 	$(".story").click(function(){
 		writethis("for people I didn't know \n to look at", ".story")
-		$(".story").css("margin-top", "8%")
+		$(".story").css("top", "17%")
 		$("#tris").css("opacity", "0")
 		$("#cetri").css("opacity", "1")
 
 
 	$(".story").click(function(){
 		writethis("Every word I said \n and every picture I posted", ".story")
-		$(".story").css("margin-top", "4%")
+		$(".story").css("top", "8%")
 		$("#cetri").css("opacity", "0")
 		$("#pieci").css("opacity", "1")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "4%")
+		$(".story").css("top", "5%")
 		writethis("was to build towards a weird \n romanticised version of myself", ".story")
 		$("#pieci").css("opacity", "0")
 		$("#sesi").css("opacity", "1")

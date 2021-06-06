@@ -30,7 +30,7 @@ html, body {
     height: 10%;
     display: block;
   font-size: 5vw;
-  margin-top: 10%;
+  top: 27%;
   margin-left:10%;
   margin-right: 10%; 
   max-width: 80%;
@@ -43,12 +43,12 @@ html, body {
     height: 10%;
     display: none;
   font-size: 5vw;
-  margin-top: 10%;
+  top: 24%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
   cursor: pointer;
-  position: relative;
+  position: absolute;
   z-index: 2;
 }
 
