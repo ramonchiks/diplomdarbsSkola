@@ -23,7 +23,7 @@ $(document).ready(function(){
 		writethis("for someone wishing \n to escape reality", ".story")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "17%")
+		$(".story").css("top", "34%")
 		writethis("and so I did", ".story")
 
 	$(".story").click(function(){

@@ -11,15 +11,15 @@ $(document).ready(function(){
  		writethis("Changes happen faster \n than you can grasp them happening", ".story")
 
  	$(".story").click(function(){
- 		$(".story").css("margin-top", "25%")
+ 		$(".story").css("top", "50%")
  		writethis("You become so sickeningly aware \n of yourself in ways you never thought \n were possible before", ".story")
 
  	$(".story").click(function(){
- 		$(".story").css("margin-top", "30%")
+ 		$(".story").css("top", "57%")
  		writethis(". . .", ".story")
 
  	$(".story").click(function(){
- 		$(".story").css("margin-top", "25%")
+ 		$(".story").css("top", "50%")
  		writethis("Being seen was truly  \n the last thing \n I wanted at the time", ".story")
 
  	$(".story").click(function(){

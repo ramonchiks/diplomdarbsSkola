@@ -30,11 +30,12 @@ html, body {
 .story {
 	height: 10%;
 	display: none;
+  position: absolute;
   font-size: 5vw;
-  margin-top: 27%;
+  top: 53%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
     color: #FADEE9;
     cursor: pointer;
 }
@@ -43,12 +44,13 @@ html, body {
   height: 10%;
   display: none;
   font-size: 5vw;
-  margin-top: 30%;
+  top: 57%;
   margin-left:10%;
   margin-right: 10%; 
-  max-width: 80%;
+  width: 80%;
   color: #FADEE9;
   cursor: pointer;
+  position: absolute;
 }
 
 .new-line {
@@ -90,7 +92,8 @@ img {
 .acis {
   width: 60%;
   height: 40%;
-  margin-top: 16%;
+  position: absolute;
+  top: 30%;
   margin-left: 28%;
   display: block;
   cursor: pointer;
@@ -98,7 +101,7 @@ img {
 }
 
 .uzaugsu {
-  transform: translateY(-45%);
+  transform: translateY(-35%);
         -webkit-transition: transform 1s ease-in-out;
   -moz-transition: transform 1s ease-in-out;
   -o-transition: transform 1s ease-in-out;

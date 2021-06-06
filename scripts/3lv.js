@@ -23,7 +23,7 @@ $(document).ready(function(){
 		writethis("kas vēlas aizbēgt \n no realitātes", ".story")
 
 	$(".story").click(function(){
-		$(".story").css("margin-top", "17%")
+		$(".story").css("top", "34%")
 		writethis("un tā es arī izdarīju", ".story")
 
 	$(".story").click(function(){

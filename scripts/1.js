@@ -80,9 +80,11 @@ $(document).ready(function(){
  		writethis("The rules \n  of time and space \n are different online", ".story3")
 
  	$(".story3").click(function(){
- 		writethis("I don't think people realise \n quite how much the internet \n has changed the world", ".story3")
+ 		$(".story3").css("top", "22%")
+ 		writethis("I don't think \n people realise \n quite how much \n the internet \n has changed the world", ".story3")
 
  	$(".story3").click(function(){
+ 		$(".story3").css("top", "30%")
  		writethis("I don't think \n  that's possible \n just yet", ".story3")
 
  	$(".story3").click(function(){

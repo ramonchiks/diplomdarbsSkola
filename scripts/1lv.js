@@ -5,7 +5,7 @@ $(document).ready(function(){
 		
 		$(".hello").css("font-size", "5vw")
 		$(".hello").css("height", "17%")
-		$(".hello").css("margin-top", "12%")
+		$(".hello").css("top", "27%")
 		$(".hello").css("margin-bottom", "7%")
 		writethis("Es gribu tev kaut ko pastāstīt. \n Vai tu klausīsies?", ".hello")
 		$(".hello").css("cursor", "default")
@@ -60,7 +60,7 @@ $(document).ready(function(){
 	});
 
  	$(".story").click(function(){
- 		$(".story").css("margin-top", "10%")
+ 		$(".story").css("top", "26%")
  		writethis("Mana paaudze bija \n  viena no pirmajām \n (ja ne pati pirmā) \n kas lielā mērā uzauga internetā", ".story")
 
  	$(".story").click(function(){
@@ -80,16 +80,18 @@ $(document).ready(function(){
  		writethis("Laiktelpas noteikumi \n  tīkla telpā \n ir atšķirīgi", ".story3")
 
  	$(".story3").click(function(){
- 		writethis("Es domāju, ka cilvēki \n vēl īsti nav aptvēruši, \n cik lielā mērā internets \n ir izmainīji pasauli", ".story3")
+ 		$(".story3").css("top", "26%")
+ 		writethis("Es domāju, ka cilvēki \n vēl īsti nav aptvēruši, \n cik lielā mērā internets \n ir izmainījis pasauli", ".story3")
 
  	$(".story3").click(function(){
+ 		$(".story3").css("top", "30%")
  		writethis("Man šķiet, \n  ka vēl ir par agru, \n lai tas būtu iespējams", ".story3")
 
  	$(".story3").click(function(){
  		writethis("Viena no lietām, \n ko patiešām \n pierādīja internets", ".story3")
 
  	$(".story3").click(function(){
- 		$(".story3").css("margin-top", "9%")
+ 		$(".story3").css("top", "26%")
  		writethis("ir tas, \n cik daudz vieglāk reizēm \n var būt parunāties \n ar pilnīgu svešinieku,", ".story3")
 
  	$(".story3").click(function(){

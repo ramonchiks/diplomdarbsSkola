@@ -11,15 +11,15 @@ $(document).ready(function(){
  		writethis("Pasaule izmainās straujāk \n nekā to ir iespējams aptvert", ".story")
 
  	$(".story").click(function(){
- 		$(".story").css("margin-top", "25%")
+ 		$(".story").css("top", "50%")
  		writethis("Tu sāc apzināties tādus \n savas eksistences aspektus, \n par kuru pastāvēšanu nemaz nenojauti", ".story")
 
  	$(".story").click(function(){
- 		$(".story").css("margin-top", "30%")
+ 		$(".story").css("top", "57%")
  		writethis(". . .", ".story")
 
  	$(".story").click(function(){
- 		$(".story").css("margin-top", "25%")
+ 		$(".story").css("top", "50%")
  		writethis("Pēdējā lieta, \n ko tolaik vēlējos, \n bija būt redzētai", ".story")
 
  	$(".story").click(function(){
