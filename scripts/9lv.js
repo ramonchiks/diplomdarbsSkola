@@ -127,6 +127,7 @@ $(document).ready(function(){
 		writethis("Interesanti, kāda ir tavējā", ".story")
 
 	$(".story").click(function(){
+		$(".story").css("top", "15%")
 		$(".fons2").css("background-image", "none")
 		$(".fons2").css("background-color", "#B9C6A9")
 		writethis("PALDIES, KA KLAUSĪJIES", ".story")
