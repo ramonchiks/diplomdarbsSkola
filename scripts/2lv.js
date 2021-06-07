@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$(".temp").click(function(){
 	$(".story").css("display", "block")
-	writethis("Trīspadsmit gadi ir diegzan \n šausmīgs vecums jebkurā gadījumā", ".story")
+	writethis("Trīspadsmit gadi ir diezgan \n šausmīgs vecums jebkurā gadījumā", ".story")
 	$(".acis").addClass("uzaugsu")
 	$(".temp").css("display", "none")
 

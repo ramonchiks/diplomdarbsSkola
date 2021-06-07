@@ -39,7 +39,7 @@ $(document).ready(function(){
 		writethis("kā liela bezformas \n atbalsta masa", ".story")
 	$(".story").click(function(){
 		$(".story").css("top", "24%")
-		writethis("kas nekad \n nelika izrātpies \n no komfota zonas", ".story")
+		writethis("kas nekad \n nelika izrātpies \n no komforta zonas", ".story")
 
 	$(".story").click(function(){
 		$(".story").css("top", "30%")
